@@ -29,7 +29,7 @@ class CreateLinkMutation extends Relay.Mutation {
             parentName: 'store',
             parentID: this.props.store.id,
             connectionName: 'linkConnection',
-            edgename: 'linkEdge',
+            edgeName: 'linkEdge',
             rangeBehaviors: {
                 '': 'append'
             }
